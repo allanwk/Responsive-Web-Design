@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#welcome-section">About</a>
+        </nav>
+    </header>
+    <section id="welcome-section">
+        <div>
+            <h1>Hello, I'm Allan</h1>
+            <em>a programmer</em>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Here are some of my projects</h2>
+        <div id="projects-grid">
+            <div class="card project-tile">
+                <div class="image-wrapper">
+                    <img
+                    src="https://drive.google.com/uc?export=view&id=10e0RtI7OyWQmXQoYEiTQHng3yYTTGSbu"
+                    alt="An image of a school timetable" />
+                </div>
+                <a href="https://github.com/allanwk/SA-scheduler-public">
+                    <h3>School Timetable Generator</h3>
+                </a>
+            </div>
+            <div class="card project-tile">
+                <div class="image-wrapper">
+                    <img id="mlcomp-img"
+                    src="https://res.cloudinary.com/dpqp9b6b7/image/upload/v1630003730/MLcomp/unky07lyri7smvamxuro.png"
+                    alt="An image of some Machine Learning graphs"
+                    />
+                </div>
+                <a href="https://github.com/allanwk/MLcomp">
+                    <h3>ML Algorithms Comparison</h3>
+                </a>
+            </div>
+            <div class="card project-tile">
+                <div class="image-wrapper">
+                    <img
+                    src="https://drive.google.com/uc?export=view&id=1xIbOqJrga2p0HTmCBjSMVgz85EWls8fu"
+                    alt="An image of a password manager program"
+                    />
+                </div>
+                <a href="https://github.com/allanwk/PasswordManager">
+                    <h3>Password Manager</h3>
+                </a>
+            </div>
+            <div class="card project-tile">
+                <div class="image-wrapper">
+                    <img
+                    src="https://github.com/allanwk/LogisimComputer/raw/master/images/schematic.png"
+                    alt="Diagram of a computer built in Logisim"
+                    />
+                </div>
+                <a href="https://github.com/allanwk/LogisimComputer">
+                    <h3>Logisim Computer</h3>
+                </a>
+            </div>
+        </div>
+        <button id="show-all-projects">
+            <a href="https://github.com/allanwk">
+                Show all
+            </a>
+        </button>
+    </section>
+    <footer id="contact">
+        <div id="contact-container">
+            <h1>Let's work together</h1>
+            <em>How do you take your coffee?</em>
+            <ul id="socials">
+                <li>
+                    <a id="profile-link" href="https://github.com/allanwk"
+                    target="_blank">
+                        <i class="fa-brands fa-github fa-xl"></i> GitHub
+                    </a>
+                </li>
+                <li>
+                    <a id="profile-link"
+                    href="https://www.linkedin.com/in/allan-kretzmann-68a251229/"
+                    target="_blank">
+                        <i class="fa-brands fa-linkedin fa-xl"></i> LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a id="profile-link"
+                    href="mailto:kretzmann@alunos.utfpr.edu.br" target="_blank">
+                        <i class="fa-solid fa-at fa-xl"></i> E-mail
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
